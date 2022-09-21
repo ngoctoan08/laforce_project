@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-detail La_Force</title>
+    <link rel="icon shortcut" href="./image/logo/icon-shortcut-logo.png">
+
+    <!-- library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <!-- header -->
+    <header id="header" class="header">
+        <div class="container-fluid">
+            <div class="header-inner alg-center jtf-between d-flex color-product-detail">
+                <!-- logo -->
+                <div class="icon-logo ml-60">
+                    <a href="./index.html">
+                        <img src="./image/logo/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="box-list-menu-header">
+                    <ul class="custom-nav list-menu-header d-flex"> 
+                        <li>
+                            <a href="./index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="./product.html">Sản phẩm</a>
+                            <ul class="custom-nav mini-box-list-menu">
+                                <!-- giầy nam -->
+                                <li class="menu-item-has-children">
+                                    <a href="list-detail-product.html">Giầy da nam</a>
+                                    <ul class="custom-nav sub-menu">
+                                        <li>
+                                            <a href="list-detail-product.html">Giày lười nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tây nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tăng chiều cao</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- ví nam -->
+                                <li class="menu-item-has-children">
+                                    <a href="list-detail-product.html">Giầy da nam</a>
+                                    <ul class="custom-nav sub-menu">
+                                        <li>
+                                            <a href="list-detail-product.html">Giày lười nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tây nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tăng chiều cao</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./introduce.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="#">Đăng ký đại lý</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-cart_search d-flex mr-60">
+                    <!-- cart -->
+                    <div class="box-icon-cart mr-15">
+                        <div class="icon-cart">
+                            <span>
+                                <span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </span>
+                                <span class="count">2</span>
+                            </span>
+                        </div>
+                        <div class="list-cart">
+                            <!-- titile -->
+                            <div class="title-cart">
+                                <span>Đơn hàng  (1 sản phẩm )</span>
+                            </div>
+                            <!-- list-product-cart -->
+                            <ul class="custom-nav box-mini-cart">
+                                <!-- product-cart -->
+                                <li class="d-flex alg-center mb-15">
+                                    <!-- img -->
+                                    <div class="img-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <img src="./image/produc-detail/product-detail (1).png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- text -->
+                                    <div class="text-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <span class="name-product-in-cart">Giày lười da nam Penny Loafer GNLA1199-D</span>
+                                        </a>
+                                        <div class="price-product-in-cart">
+                                            1x <span> 1,150,000 ₫ </span>
+                                        </div>
+                                    </div>
+                                    <!-- icon-close -->
+                                    <div class="icon-close-cart">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </span>
+                                    </div>
+                                </li>
+                                <!-- product-cart -->
+                                <li class="d-flex alg-center mb-15">
+                                    <!-- img -->
+                                    <div class="img-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <img src="./image/produc-detail/product-detail (4).png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- text -->
+                                    <div class="text-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <span class="name-product-in-cart">Giày lười da nam Penny Loafer GNLA1199-D</span>
+                                        </a>
+                                        <div class="price-product-in-cart">
+                                            1x <span> 1,150,000 ₫ </span>
+                                        </div>
+                                    </div>
+                                    <!-- icon-close -->
+                                    <div class="icon-close-cart">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- total money -->
+                            <div class="total-money-cart d-flex alg-center jtf-between mb-15">
+                                <div class="text-total-money">
+                                    <span>Tổng số tiền cần thanh toán:</span>
+                                </div>
+                                <div class="price-product-in-cart">
+                                    <span> 1,150,000 ₫ </span>
+                                </div>
+                            </div>
+                            <!-- pay-cart -->
+                            <div class="btn-pay-cart">
+                                <a href="./pay.html">
+                                    <button>
+                                        <span>Thanh toán</span>
+                                    </button>
+                                </a>
+                                <div class="continue-shopping">
+                                    <a href="product.html">Tiếp tục mua hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search -->
+                    <div class="box-icon-search ml-15">
+                        <span> 
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- mini-menu -->
+    <section class="mini-menu-header">
+        <div class="box-mini-menu">
+            <ul class="custom-nav menu-header-product-detail d-flex jtf-center alg-center">
+                <li>
+                    <a href="./index.html">Trang chủ</a>
+                </li>
+                <li>/</li>
+                <li>
+                    <a href="./list-detail-product.html">Giày da nam</a>
+                </li>
+                <li>/</li>
+                <li>
+                    <a href="./list-detail-product.html">Giày tây nam</a>
+                </li>
+                <li>/</li>
+                <li>
+                    <a href="./product-detail.html">Giày da nam kiểu dáng Oxford GNLAAZ01-1-D</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- product-detail -->
+    <section class="product-detail">
+        <div class="container">
+            <div class="row">
+                <!-- img-product -->
+                <div class="col-md-7">
+                    <div class="box-img-product d-flex alg-center">
+                        <div class="thumbnails">
+                            <div class="thumb">
+                                <a class="zoom" href="javascript:void(0)">
+                                    <img src="./image/produc-detail/product-detail (1-1).png" alt="" onmouseover="changeImage('one')" id="one">
+                                </a>
+                            </div>
+                            <div class="thumb">
+                                <a class="zoom" href="javascript:void(0)">
+                                    <img src="./image/produc-detail/product-detail (1-2).png" alt="" onmouseover="changeImage('two')" id="two">
+                                </a>
+                            </div>
+                            <div class="thumb">
+                                <a class="zoom" href="javascript:void(0)">
+                                    <img src="./image/produc-detail/product-detail (1-3).png" alt="" onmouseover="changeImage('three')" id="three">
+                                </a>
+                            </div>
+                            <div class="thumb">
+                                <a class="zoom" href="javascript:void(0)">
+                                    <img src="./image/produc-detail/product-detail (1-4).png" alt="" onmouseover="changeImage('four')" id="four">
+                                </a>
+                            </div>
+                            <div class="thumb">
+                                <a class="zoom" href="javascript:void(0)">
+                                    <img src="./image/produc-detail/product-detail (1-5).png" alt="" onmouseover="changeImage('five')" id="five">
+                                </a>
+                            </div>
+                            <div class="thumb">
+                                <a class="zoom" href="javascript:void(0)">
+                                    <img src="./image/produc-detail/product-detail (1).png" alt="" onmouseover="changeImage('six')" id="six">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="big-slide-img">
+                            <img src="./image/produc-detail/product-detail (1).png" id="img-main" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="content-product-detail">
+                        <h1 class="title-product-detail">Giày da nam kiểu dáng Oxford GNLAAZ01-1-D</h1>
+                        <div class="price-product">
+                            <p>1,800,000 <span>₫</span> </p>
+                        </div>
+                        <form action="">
+                            <div class="choose-size">
+                                <p>Size</p>
+                                <div class="box-border-choose-size d-flex mb-15">
+                                    <div class="border-choose-size">
+                                        <span>38</span>
+                                    </div>
+                                    <div class="border-choose-size">
+                                        <span>39</span>
+                                    </div>
+                                    <div class="border-choose-size">
+                                        <span>40</span>
+                                    </div>
+                                    <div class="border-choose-size">
+                                        <span>41</span>
+                                    </div>
+                                    <div class="border-choose-size">
+                                        <span>42</span>
+                                    </div>
+                                    <div class="border-choose-size">
+                                        <span>43</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="choose-quantity d-flex alg-center">
+                                <p>Chọn số lượng</p>
+                                <div class="quantity-custom d-flex">
+                                    <input aria-label="quantity" class="input-qty" min="1" max="10" name="" type="number" value="1">
+                                    <div class="btn-up-down">
+                                        <input class="plus is-form" type="button" value="+">
+                                        <input class="minus is-form" type="button" value="-">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tutorial-choose-size mt-30">
+                                <div class="btn-tutorial-choose-size">
+                                    <img src="./image/icon/ruler.png" alt="">
+                                    <span>Hướng dẫn chọn size</span>
+                                </div>
+                            </div>
+                            <a href="./pay.html">
+                                <button type="submit" class="btn-submit-product-detail">
+                                    <span>Thanh toán ngay</span>
+                                </button>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="detail-info">
+        <div class="container">
+            <div class="col-md-7">
+                <div class="form-info-custom">
+                    <div class="title-info-custom">
+                        <span>Thông tin cá nhân</span>
+                    </div>
+                    <form action="">
+                        <div class="input-info-custom">
+                            <input type="text" name="name" id="name" placeholder="Họ và tên" required>
+                        </div>
+                        <div class="input-info-custom">
+                            <input type="tel" name="phone" id="phone" placeholder="Số điện thoại" required>
+                        </div>
+                        <div class="input-info-custom">
+                            <input type="text" name="address" id="address" placeholder="Địa chỉ nhận hàng" required>
+                        </div>
+                        <div class="input-info-custom">
+                            <button type="submit" class="btn-submit-product-detail">
+                                <span>Đặt hàng nhanh</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="info-detail-product">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        <!-- 1 -->
+                        <div class="panel panel-default border-product-detail">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Thông tin chi tiết
+                                        <span>+</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <ul class="custom-nav box-list-info-detail">
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="panel panel-default border-product-detail">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Chất liệu
+                                        <span>+</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <ul class="custom-nav box-list-info-detail">
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="panel panel-default border-product-detail">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Giao hàng tận nơi
+                                        <span>+</span>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    <ul class="custom-nav box-list-info-detail">
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                        <li>
+                                            <div></div>
+                                            <span>Thiết kế hiện đại</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- mini-footer -->
+    <section class="mini-footer">
+        <div class="container">
+            <div class="box-icon-mini-footer">
+                <!-- 1 -->
+                <div class="icon-mini-footer d-flex alg-center">
+                    <div class="img-icon">
+                        <img src="./image/icon/icon_security.png" alt="">
+                    </div>
+                    <div class="text-mini-footer ml-15">
+                        <span>Chất liệu 100% da thật</span>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="icon-mini-footer d-flex alg-center">
+                    <div class="img-icon">
+                        <img src="./image/icon/icon_baohanh.png" alt="">
+                    </div>
+                    <div class="text-mini-footer ml-15">
+                        <span>Chất liệu 100% da thật</span>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="icon-mini-footer d-flex alg-center">
+                    <div class="img-icon">
+                        <img src="./image/icon/icon_car.png" alt="">
+                    </div>
+                    <div class="text-mini-footer ml-15">
+                        <span>Chất liệu 100% da thật</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- related products -->
+    <section class="related-products">
+        <div class="container">
+            <div class="title-boc-cart-list">
+                <span>Sản phẩm liên quan</span>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="./product-detail.html">
+                        <div class="img-related-product">
+                            <img src="./image/produc-detail/product-detail (2).png" alt="">
+                        </div>
+                        <div class="product-meta">
+                            <div class="name-related-product">
+                                <span>Giày nam đục lỗ vân da GNLA9627-103-D</span>
+                            </div>
+                            <div class="price-related-product">
+                                <span>1,750,000 <span>₫</span> </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="./product-detail.html">
+                        <div class="img-related-product">
+                            <img src="./image/produc-detail/product-detail (3).png" alt="">
+                        </div>
+                        <div class="product-meta">
+                            <div class="name-related-product">
+                                <span>Giày nam đục lỗ vân da GNLA9627-103-D</span>
+                            </div>
+                            <div class="price-related-product">
+                                <span>1,750,000 <span>₫</span> </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="./product-detail.html">
+                        <div class="img-related-product">
+                            <img src="./image/produc-detail/product-detail (4).png" alt="">
+                        </div>
+                        <div class="product-meta">
+                            <div class="name-related-product">
+                                <span>Giày nam đục lỗ vân da GNLA9627-103-D</span>
+                            </div>
+                            <div class="price-related-product">
+                                <span>1,750,000 <span>₫</span> </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="./product-detail.html">
+                        <div class="img-related-product">
+                            <img src="./image/produc-detail/product-detail (5).png" alt="">
+                        </div>
+                        <div class="product-meta">
+                            <div class="name-related-product">
+                                <span>Giày nam đục lỗ vân da GNLA9627-103-D</span>
+                            </div>
+                            <div class="price-related-product">
+                                <span>1,750,000 <span>₫</span> </span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class="footer">
+        <div class="footer-address">
+            <div class="container">
+                <div class="row">
+                    <!-- Ha Noi  -->
+                    <div class="col-md-3">
+                        <div class="box-content-address">
+                            <div class="title-address">
+                                <span>Hà Nội</span>
+                            </div>
+                            <div class="list-address">
+                                <!-- 1 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ho Chi Minh -->
+                    <div class="col-md-3">
+                        <div class="box-content-address">
+                            <div class="title-address">
+                                <span>Hồ Chí Minh</span>
+                            </div>
+                            <div class="list-address">
+                                <!-- 1 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- other provinces -->
+                    <div class="col-md-6">
+                        <div class="box-content-address">
+                            <div class="title-address">
+                                <span>Tỉnh thành khác</span>
+                                <span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                            </div>
+                            <div class="list-address list-other-provinces">
+                                <!-- 1 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 5 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 6 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 7 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 8 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-main">
+            <div class="container">
+                <!-- footer-over -->
+                <div class="footer-over d-flex jtf-between">
+                    <!-- hotline -->
+                    <div class="hotline-footer">
+                        <div class="icon-logo-footer">
+                            <img src="./image/logo/logo-footer.png" alt="">
+                        </div>
+                        <p>
+                            <span>Hotline:</span>
+                        </p>
+                        <p>
+                            <a href="tel:1900 2033">
+                                <strong>1900 2033</strong>
+                            </a>
+                        </p>
+                    </div>
+                    <!-- genera-info -->
+                    <div class="genera-info ">
+                        <div class="title-main-footer">
+                            <span>Thông tin chung</span>
+                        </div>
+                        <div class="box-menu-genera-info">
+                            <ul class="menu-genera-info menu-footer">
+                                <li>
+                                    <a href="#">Chính sách bảo hành</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quy định đổi trả sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="#">Chính sách bảo mật</a>
+                                </li>
+                                <li>
+                                    <a href="#">Điều kiện giao dịch chung</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hệ thống cửa hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#">Đăng ký đại lý</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- tutorial -->
+                    <div class="tutorial">
+                        <div class="title-main-footer">
+                            <span>Hướng dẫn mua hàng</span>
+                        </div>
+                        <div class="box-menu-genera-info">
+                            <ul class="custom-nav menu-footer">
+                                <li>
+                                    <a href="#">Chính sách bảo hành</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quy định đổi trả sản phẩm</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- contact -->
+                    <div class="contact-footer">
+                        <div class="title-main-footer">
+                            <span>Kết nối với chúng tôi</span>
+                        </div>
+                        <div class="box-menu-genera-info">
+                            <ul class="custom-nav menu-footer menu-contact-footer">
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </span>
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </span>
+                                        <span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </span>
+                                        <span>Youtube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-square-instagram"></i>
+                                        </span>
+                                        <span>Instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-under -->
+                <div class="footer-under">
+                    <div class="box-copyright">
+                        <img src="./image/logo/bocongthuong.png" alt="">
+                        <span> @2022 All rights reserved Laforce</span>
+                    </div>
+                    <div class="contact-address-footer">
+                        <p>CÔNG TY TNHH LAFORCE VIỆT NAM</p>
+                        <p>Địa chỉ: Số 129 Cầu Giấy, Phường Quan Hoa, Quận Cầu Giấy, Thành Phố Hà Nội, Việt Nam</p>
+                        <p>Mã số doanh nghiệp: 0106156656</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <section class="popup-choose-size">
+        <div class="img-choose-size">
+            <img src="./image/produc-detail/chon-size-giay.png" alt="">
+            <div class="btn-close">
+                <span>
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <a title="back to top" id="back-top"></a>
+
+
+    <!-- js -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/back-to-top.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>

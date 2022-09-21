@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News-detail La_Force</title>
+    <link rel="icon shortcut" href="./image/logo/icon-shortcut-logo.png">
+
+    <!-- library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <!-- header -->
+    <header id="header" class="header"> 
+        <div class="container-fluid">
+            <div class="header-inner alg-center jtf-between d-flex">
+                <!-- logo -->
+                <div class="icon-logo ml-60">
+                    <a href="./index.html">
+                        <img src="./image/logo/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="box-list-menu-header">
+                    <ul class="custom-nav list-menu-header d-flex"> 
+                        <li>
+                            <a href="./index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="./product.html">Sản phẩm</a>
+                            <ul class="custom-nav mini-box-list-menu">
+                                <!-- giầy nam -->
+                                <li class="menu-item-has-children">
+                                    <a href="list-detail-product.html">Giầy da nam</a>
+                                    <ul class="custom-nav sub-menu">
+                                        <li>
+                                            <a href="list-detail-product.html">Giày lười nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tây nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tăng chiều cao</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- ví nam -->
+                                <li class="menu-item-has-children">
+                                    <a href="list-detail-product.html">Giầy da nam</a>
+                                    <ul class="custom-nav sub-menu">
+                                        <li>
+                                            <a href="list-detail-product.html">Giày lười nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tây nam</a>
+                                        </li>
+                                        <li>
+                                            <a href="list-detail-product.html">Giày tăng chiều cao</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./introduce.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html">Liên hệ</a>
+                        </li>
+                        <li>
+                            <a href="#">Tin tức</a>
+                        </li>
+                        <li>
+                            <a href="#">Đăng ký đại lý</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="box-cart_search d-flex mr-60">
+                    <!-- cart -->
+                    <div class="box-icon-cart mr-15">
+                        <div class="icon-cart">
+                            <span>
+                                <span>
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </span>
+                                <span class="count">2</span>
+                            </span>
+                        </div>
+                        <div class="list-cart">
+                            <!-- titile -->
+                            <div class="title-cart">
+                                <span>Đơn hàng  (1 sản phẩm )</span>
+                            </div>
+                            <!-- list-product-cart -->
+                            <ul class="custom-nav box-mini-cart">
+                                <li class="d-flex alg-center mb-15">
+                                    <!-- img -->
+                                    <div class="img-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <img src="./image/produc-detail/product-detail (1).png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- text -->
+                                    <div class="text-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <span class="name-product-in-cart">Giày lười da nam Penny Loafer GNLA1199-D</span>
+                                        </a>
+                                        <div class="price-product-in-cart">
+                                            1x <span> 1,150,000 ₫ </span>
+                                        </div>
+                                    </div>
+                                    <!-- icon-close -->
+                                    <div class="icon-close-cart">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li class="d-flex alg-center mb-15">
+                                    <!-- img -->
+                                    <div class="img-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <img src="./image/produc-detail/product-detail (4).png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- text -->
+                                    <div class="text-product-in-cart">
+                                        <a href="product-detail.html">
+                                            <span class="name-product-in-cart">Giày lười da nam Penny Loafer GNLA1199-D</span>
+                                        </a>
+                                        <div class="price-product-in-cart">
+                                            1x <span> 1,150,000 ₫ </span>
+                                        </div>
+                                    </div>
+                                    <!-- icon-close -->
+                                    <div class="icon-close-cart">
+                                        <span>
+                                            <i class="fa-solid fa-xmark"></i>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- total money -->
+                            <div class="total-money-cart d-flex alg-center jtf-between mb-15">
+                                <div class="text-total-money">
+                                    <span>Tổng số tiền cần thanh toán:</span>
+                                </div>
+                                <div class="price-product-in-cart">
+                                    <span> 1,150,000 ₫ </span>
+                                </div>
+                            </div>
+                            <!-- pay-cart -->
+                            <div class="btn-pay-cart">
+                                <a href="./pay.html">
+                                    <button>
+                                        <span>Thanh toán</span>
+                                    </button>
+                                </a>
+                                <div class="continue-shopping">
+                                    <a href="product.html">Tiếp tục mua hàng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search -->
+                    <div class="box-icon-search ml-15">
+                        <span> 
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner -->
+    <section class="banner">
+        <div class="img-banner">
+            <img src="./image/banner/banner-product.jpg" alt="">
+        </div>
+        <div class="mini-list-banner">
+            <ul class="custom-nav d-flex jtf-center alg-center">
+                <li>
+                    <a href="./index.html">Trang chủ</a>
+                </li>
+                <li>/</li>
+                <li>
+                    <a href="./pay.html">Kiến thức thời trang</a>
+                </li>
+                <li>/</li>
+                <li>
+                    <a href="./pay.html"> Bảng size giày Fila Hàn Quốc trẻ em nam nữ cập nhật mới nhất</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- news-detail -->
+    <section class="news-detail">
+        <div class="container">
+            <div class="">
+                <div class="text-page-news txt-center">
+                    <p>31/08/2022. 200 Lượt xem</p>
+                </div>
+                <div class="title-news-detail txt-center">
+                    <h1> Bảng size giày Fila Hàn Quốc trẻ em nam nữ cập nhật mới nhất </h1>
+                </div>
+                <div class="content-news-detail">
+                    <p>Trong số các thương hiệu giày tới từ Hàn Quốc, Fila là cái tên rất được giới trẻ ưa chuộng nhờ thiết kế cá tính, năng động đầy phong cách. Trong bài viết này Laforce sẽ tổng hợp bảng size giày Fila cũng như cách đọc bảng size, chọn giày vừa vặn nhất. Hãy cùng theo dõi nhé.</p>
+
+                    <div class="no_bullets">
+                        <p class="title-no_bullets">Nội dung bài viết</p>
+                        <ul class="custom-nav list-no_bullets">
+                            <li>    
+                                <a href="#id_no_bullets_1">I. Bảng size giày Fila Hàn Quốc</a>
+                            </li>
+                            <li>
+                                <a href="#id_no_bullets_2">II. Bảng size giày Fila nam nữ trẻ em    </a>
+                            </li>
+                            <li>
+                                <a href="#id_no_bullets_3">III. Cách đo size giày Fila chuẩn nhất</a>
+                            </li>
+                            <li>
+                                <a href="#id_no_bullets_4">IV. Một số lưu ý khác khi chọn size giày Fila</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- I  -->
+                    <h2 id="id_no_bullets_1">I. Bảng size giày Fila Hàn Quốc</h2>
+
+                    <p>Các thương hiệu giày khác nhau sẽ có sự khác biệt nhất định về size giày. Fila cũng không nằm ngoại lệ.</p>
+
+                    <p>
+                        <img src="./image/news/img-news-detail (1).png" alt="">
+                    </p>
+
+                    <p>– Đầu tiên bạn đọc tiến hành đo chiều dài bàn chân, nhận được kết quả là 23,5 cm tức là nằm trong khoảng 23,3 – 23,7cm.</p>
+
+                    <p>Đối chiếu theo cột dọc sẽ tương ứng với size Euro 38, nhiều người thường gọi là size giày Việt Nam.</p>
+                    
+                    <p>– Khi lựa chọn size giày Hàn Quốc và Việt Nam, bạn đọc cần chú ý, size Euro của Fila sẽ có sự khác biệt so với những thương hiệu phổ biến khác như Nike, Adidas,… </p>
+                    
+                    <p>Bởi vậy nên size Euro trong bảng trên sẽ là size Euro tại Việt Nam thường dùng.</p>
+
+                    <!-- II  -->
+                    <h2 id="id_no_bullets_2">II. Bảng size giày Fila nam nữ trẻ em</h2>
+
+                    <p>Với đối tượng khách hàng nam – nữ hay trẻ em, kích thước giày Fila sẽ có sự khác biệt, cụ thể bạn đọc hãy xem ngay trong bảng dưới đây :</p>
+
+                    <p>
+                        <img src="./image/news/img-news-detail (2).png" alt="">
+                    </p>
+
+                    <!-- III  -->
+                    <h2 id="id_no_bullets_3">II. Bảng size giày Fila nam nữ trẻ em</h2>
+
+                    <p>Với đối tượng khách hàng nam – nữ hay trẻ em, kích thước giày Fila sẽ có sự khác biệt, cụ thể bạn đọc hãy xem ngay trong bảng dưới đây :</p>
+
+                    <p>
+                        <img src="./image/news/img-news-detail (3).png" alt="">
+                    </p>
+
+                    <p>– Đầu tiên bạn đọc tiến hành đo chiều dài bàn chân, nhận được kết quả là 23,5 cm tức là nằm trong khoảng 23,3 – 23,7cm.</p>
+
+                    <p>Đối chiếu theo cột dọc sẽ tương ứng với size Euro 38, nhiều người thường gọi là size giày Việt Nam.</p>
+                    
+                    <p>– Khi lựa chọn size giày Hàn Quốc và Việt Nam, bạn đọc cần chú ý, size Euro của Fila sẽ có sự khác biệt so với những thương hiệu phổ biến khác như Nike, Adidas,… </p>
+                    
+                    <p>Bởi vậy nên size Euro trong bảng trên sẽ là size Euro tại Việt Nam thường dùng.</p>
+
+                    <!-- IV  -->
+                    <h2 id="id_no_bullets_4">II. Bảng size giày Fila nam nữ trẻ em</h2>
+
+                    <p>Với đối tượng khách hàng nam – nữ hay trẻ em, kích thước giày Fila sẽ có sự khác biệt, cụ thể bạn đọc hãy xem ngay trong bảng dưới đây :</p>
+
+                    <p>
+                        <img src="./image/news/img-news-detail (4).png" alt="">
+                    </p>
+
+                    <p>– Đầu tiên bạn đọc tiến hành đo chiều dài bàn chân, nhận được kết quả là 23,5 cm tức là nằm trong khoảng 23,3 – 23,7cm.</p>
+
+                    <p>Đối chiếu theo cột dọc sẽ tương ứng với size Euro 38, nhiều người thường gọi là size giày Việt Nam.</p>
+                    
+                    <p>– Khi lựa chọn size giày Hàn Quốc và Việt Nam, bạn đọc cần chú ý, size Euro của Fila sẽ có sự khác biệt so với những thương hiệu phổ biến khác như Nike, Adidas,… </p>
+                    
+                    <p>Bởi vậy nên size Euro trong bảng trên sẽ là size Euro tại Việt Nam thường dùng.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- list-news  -->
+    <section class="list-news-detail">
+        <div class="container">
+            <div class="title-news-detial txt-center mt-60 mb-60">
+                <h3>Bài viết khác</h3>
+            </div>
+            <div class="row">
+                    <!-- row-1 -->
+                <!-- 1 -->
+                <div class="col-md-4">
+                    <div class="conntetnt-list-news mb-60">
+                        <div class="img-page-news">
+                            <img src="./image/news/page_news (1).png" alt="">
+                        </div>
+                        <div class="text-page-news">
+                            <p>31/08/2022</p>
+                            <a href="./news-detail.html">
+                                <h3>Hướng dẫn cách tháo dây đồng hồ đeo tay đơn giản nhất tại nhà</h3>
+                                <span class="seen-more">Xem thêm</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-md-4">
+                    <div class="conntetnt-list-news mb-60">
+                        <div class="img-page-news">
+                            <img src="./image/news/page_news (2).png" alt="">
+                        </div>
+                        <div class="text-page-news">
+                            <p>31/08/2022</p>
+                            <a href="./news-detail.html">
+                                <h3>Bảng size giày Fila Hàn Quốc trẻ em nam nữ cập nhật mới nhất</h3>
+                                <span class="seen-more">Xem thêm</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-md-4">
+                    <div class="conntetnt-list-news mb-60">
+                        <div class="img-page-news">
+                            <img src="./image/news/page_news (3).png" alt="">
+                        </div>
+                        <div class="text-page-news">
+                            <p>31/08/2022</p>
+                            <a href="./news-detail.html">
+                                <h3>Hướng dẫn cách tháo dây đồng hồ đeo tay đơn giản nhất tại nhà</h3>
+                                <span class="seen-more">Xem thêm</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- row-2 -->
+                <!-- 1 -->
+                <div class="col-md-4">
+                    <div class="conntetnt-list-news mb-60">
+                        <div class="img-page-news">
+                            <img src="./image/news/page_news (4).png" alt="">
+                        </div>
+                        <div class="text-page-news">
+                            <p>31/08/2022</p>
+                            <a href="./news-detail.html">
+                                <h3>Hướng dẫn cách tháo dây đồng hồ đeo tay đơn giản nhất tại nhà</h3>
+                                <span class="seen-more">Xem thêm</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="col-md-4">
+                    <div class="conntetnt-list-news mb-60">
+                        <div class="img-page-news">
+                            <img src="./image/news/page_news (5).png" alt="">
+                        </div>
+                        <div class="text-page-news">
+                            <p>31/08/2022</p>
+                            <a href="./news-detail.html">
+                                <h3>Bảng size giày Fila Hàn Quốc trẻ em nam nữ cập nhật mới nhất</h3>
+                                <span class="seen-more">Xem thêm</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="col-md-4">
+                    <div class="conntetnt-list-news mb-60">
+                        <div class="img-page-news">
+                            <img src="./image/news/page_news (6).png" alt="">
+                        </div>
+                        <div class="text-page-news">
+                            <p>31/08/2022</p>
+                            <a href="./news-detail.html">
+                                <h3>Hướng dẫn cách tháo dây đồng hồ đeo tay đơn giản nhất tại nhà</h3>
+                                <span class="seen-more">Xem thêm</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- mini-footer -->
+    <section class="mini-footer p-m-0">
+        <div class="container">
+            <div class="box-icon-mini-footer">
+                <!-- 1 -->
+                <div class="icon-mini-footer d-flex alg-center">
+                    <div class="img-icon">
+                        <img src="./image/icon/icon_security.png" alt="">
+                    </div>
+                    <div class="text-mini-footer ml-15">
+                        <span>Chất liệu 100% da thật</span>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="icon-mini-footer d-flex alg-center">
+                    <div class="img-icon">
+                        <img src="./image/icon/icon_baohanh.png" alt="">
+                    </div>
+                    <div class="text-mini-footer ml-15">
+                        <span>Chất liệu 100% da thật</span>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="icon-mini-footer d-flex alg-center">
+                    <div class="img-icon">
+                        <img src="./image/icon/icon_car.png" alt="">
+                    </div>
+                    <div class="text-mini-footer ml-15">
+                        <span>Chất liệu 100% da thật</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class="footer">
+        <div class="footer-address">
+            <div class="container">
+                <div class="row">
+                    <!-- Ha Noi  -->
+                    <div class="col-md-3">
+                        <div class="box-content-address">
+                            <div class="title-address">
+                                <span>Hà Nội</span>
+                            </div>
+                            <div class="list-address">
+                                <!-- 1 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ho Chi Minh -->
+                    <div class="col-md-3">
+                        <div class="box-content-address">
+                            <div class="title-address">
+                                <span>Hồ Chí Minh</span>
+                            </div>
+                            <div class="list-address">
+                                <!-- 1 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- other provinces -->
+                    <div class="col-md-6">
+                        <div class="box-content-address">
+                            <div class="title-address">
+                                <span>Tỉnh thành khác</span>
+                                <span>
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </span>
+                            </div>
+                            <div class="list-address list-other-provinces">
+                                <!-- 1 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 5 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 6 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 7 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- 8 -->
+                                <div class="list_list">
+                                    <div class="title">
+                                        <a rel="nofollow" href="https://goo.gl/maps/Biicy4e93Zqy97xr6">
+                                            <label class="number">1</label>
+                                            <span>58 Phố Huế</span> 
+                                            <p>Q. Hai Bà Trưng</p> 
+                                            <p>Hotline: 024.2023.2666</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-main">
+            <div class="container">
+                <!-- footer-over -->
+                <div class="footer-over d-flex jtf-between">
+                    <!-- hotline -->
+                    <div class="hotline-footer">
+                        <div class="icon-logo-footer">
+                            <img src="./image/logo/logo-footer.png" alt="">
+                        </div>
+                        <p>
+                            <span>Hotline:</span>
+                        </p>
+                        <p>
+                            <a href="tel:1900 2033">
+                                <strong>1900 2033</strong>
+                            </a>
+                        </p>
+                    </div>
+                    <!-- genera-info -->
+                    <div class="genera-info ">
+                        <div class="title-main-footer">
+                            <span>Thông tin chung</span>
+                        </div>
+                        <div class="box-menu-genera-info">
+                            <ul class="menu-genera-info menu-footer">
+                                <li>
+                                    <a href="#">Chính sách bảo hành</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quy định đổi trả sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="#">Chính sách bảo mật</a>
+                                </li>
+                                <li>
+                                    <a href="#">Điều kiện giao dịch chung</a>
+                                </li>
+                                <li>
+                                    <a href="#">Hệ thống cửa hàng</a>
+                                </li>
+                                <li>
+                                    <a href="#">Đăng ký đại lý</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- tutorial -->
+                    <div class="tutorial">
+                        <div class="title-main-footer">
+                            <span>Hướng dẫn mua hàng</span>
+                        </div>
+                        <div class="box-menu-genera-info">
+                            <ul class="custom-nav menu-footer">
+                                <li>
+                                    <a href="#">Chính sách bảo hành</a>
+                                </li>
+                                <li>
+                                    <a href="#">Quy định đổi trả sản phẩm</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- contact -->
+                    <div class="contact-footer">
+                        <div class="title-main-footer">
+                            <span>Kết nối với chúng tôi</span>
+                        </div>
+                        <div class="box-menu-genera-info">
+                            <ul class="custom-nav menu-footer menu-contact-footer">
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </span>
+                                        <span>Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </span>
+                                        <span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </span>
+                                        <span>Youtube</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>
+                                            <i class="fa-brands fa-square-instagram"></i>
+                                        </span>
+                                        <span>Instagram</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- footer-under -->
+                <div class="footer-under">
+                    <div class="box-copyright">
+                        <img src="./image/logo/bocongthuong.png" alt="">
+                        <span> @2022 All rights reserved Laforce</span>
+                    </div>
+                    <div class="contact-address-footer">
+                        <p>CÔNG TY TNHH LAFORCE VIỆT NAM</p>
+                        <p>Địa chỉ: Số 129 Cầu Giấy, Phường Quan Hoa, Quận Cầu Giấy, Thành Phố Hà Nội, Việt Nam</p>
+                        <p>Mã số doanh nghiệp: 0106156656</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <a title="back to top" id="back-top"></a>
+
+
+    <!-- js -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/back-to-top.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
